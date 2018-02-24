@@ -158,7 +158,7 @@ export default class NESGui extends React.Component{
                 </section>
 
                 <section>
-                    <div>Sound Channel</div>
+                    <div>声音通道</div>
                     <div><input type="checkbox"  onChange = {this.setChannel} data-channel="pa" checked={this.state.channel.pa} />PulseA</div>
                     <div><input type="checkbox"  onChange = {this.setChannel} data-channel="pb" checked={this.state.channel.pb} />PulseB</div>
                     <div><input type="checkbox"  onChange = {this.setChannel} data-channel="t" checked={this.state.channel.t} />Triangle</div>
@@ -167,7 +167,7 @@ export default class NESGui extends React.Component{
                 <section>
                     <table>
                         <thead>
-                            <tr><th>Button</th><th>Key</th></tr>
+                            <tr><th>手柄</th><th>键盘</th></tr>
                         </thead>
                         <tbody>
                             <tr><td>上</td><td>W</td></tr>
